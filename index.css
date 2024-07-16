@@ -21,6 +21,9 @@ body{
 .right img{
     width: 80px;
     height: 80px;
+    
+    border-radius: 10px;
+    
 }
 .first_logo img{
     width: 70px;
@@ -32,6 +35,8 @@ body{
     justify-content: space-evenly;
     padding-top: 8px;
     overflow: hidden;
+    border-radius: 10px;
+    
 }
 .left{
     display: flex;
@@ -128,4 +133,5 @@ hr{
 }
 .right{
     overflow: hidden;
+    
 }
