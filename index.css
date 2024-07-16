@@ -10,6 +10,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 .main_container{
     width: 500px;
@@ -115,4 +116,12 @@ hr{
     padding-right: 40px;
     padding-left: 140px;
     padding-top: 4px;
+}
+.absolutediv img{
+    width: 290px;
+    height: 240px;
+    opacity: 0.3;
+}
+.absolutediv{
+    position: absolute;
 }
