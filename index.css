@@ -7,9 +7,9 @@ body{
     width: 100vw;
     height: 100vh;
     background-color: pink;
-    /* display: flex;
+    display: flex;
     align-items: center;
-    justify-content: center; */
+    justify-content: center;
 }
 .main_container{
     width: 500px;
@@ -115,5 +115,18 @@ hr{
     padding-right: 40px;
     padding-left: 140px;
     padding-top: 4px;
+}
+@media (max-width:320px){
+    .main_container{
+        /* width: 500px;
+        height: 344px;
+        background-color: white;
+        border-radius: 20px;
+        display: grid;
+    grid-template-columns: 1,1fr;
+    grid-template-rows: 1,1fr; */
+    transform: rotate(90deg);
+    }
+
 }
 
