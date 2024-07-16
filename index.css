@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main_container{
+    width: 500px;
+    height: 344px;
+    background-color: white;
+    border-radius: 20px;
+}
+.right img{
+    width: 80px;
+    height: 80px;
+}
+.first_logo img{
+    width: 70px;
+    height: 80px;
+}
+.Header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 8px;
+}
+.left{
+    display: flex;
+    gap: 30px;
+    padding-left: 10px;
+}
+.first_p p{
+    color: rgb(0, 94, 148);
+}
+.second_p{
+    color: rgb(0, 94, 148);
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.heading p{
+    background-color: rgb(0, 94, 148); 
+    color: white;
+    font-weight: bolder;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    padding-left: 200px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+}
+.main_left img{
+    width: 110px;
+    height: 150px;
+}
+.top_text p{
+    color: red;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    font-size: larger;
+    padding-left: 60px;
+}
+.main_ko_text{
+    display: flex;
+}
+.main{
+    display: flex;
+    background-color: rgb(190, 210, 211);
+}
+.firstside p , .midleside p{
+    color: rgb(0, 94, 148); ;
+    font-weight: bold;
+    padding-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+}
+.lastside p{
+    padding-left: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+}
+.signdiv img{
+    width: 100px;
+    height: 30px;
+    padding-left: 20px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    /* gap: 180px; */
+}
+hr{
+    width: 120px;
+}
+.footertext p{
+    color: red;
+    font-weight: 600;
+    text-align: center;
+
+}
+.footerright img{
+    padding-right: 40px;
+    padding-left: 140px;
+    padding-top: 4px;
+}
